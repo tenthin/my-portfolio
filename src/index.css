@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.aboutme{
+  display: flex;
+  flex-direction: column;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.aboutmeName{
+  font-size: 60px;
+}
+
+.aboutmeImg{
+  height: 15%;
+  width: 15%;
+  margin-right: 80%;
+}
+
+.aboutmeHeader{
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
 }
