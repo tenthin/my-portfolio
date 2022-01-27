@@ -1,11 +1,9 @@
-.aboutme{
+.myname{
   display: flex;
   flex-direction: column;
-}
-
-.aboutmeName{
   font-size: 60px;
 }
+
 
 .aboutmeImg{
   height: 15%;

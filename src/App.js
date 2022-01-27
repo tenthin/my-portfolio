@@ -1,5 +1,5 @@
 import './App.css';
-import AboutMe from './components/AboutMe';
+import MyName from './components/MyName';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import {
@@ -8,14 +8,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import AboutMe from './components/AboutMe';
 
 
 function App() {
   return (
     <Router>
       <div>
-        <AboutMe/>
+        <MyName/>
          <div className='link'>
           <Link to="/contact">Contact</Link>
           <Link to="/project">Project</Link>
@@ -28,7 +28,7 @@ function App() {
             <Project/>
           </Route>
         </Switch>
-     
+        <AboutMe/>
       </div>
     </Router>
   );
