@@ -1,7 +1,7 @@
 import './App.css';
 import MyName from './components/MyName';
-import Contact from './components/Contact';
-import Project from './components/Project';
+// import Contact from './components/Contact';
+// import Project from './components/Project';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,18 +16,18 @@ function App() {
     <Router>
       <div>
         <MyName/>
-         <div className='link'>
+         {/* <div className='link'>
           <Link to="/contact">Contact</Link>
           <Link to="/project">Project</Link>
-        </div> 
-        <Switch>
+        </div>  */}
+        {/* <Switch>
           <Route path="/contact">
             <Contact/>
           </Route>
           <Route path="/project">
             <Project/>
           </Route>
-        </Switch>
+        </Switch> */}
         <AboutMe/>
       </div>
     </Router>
