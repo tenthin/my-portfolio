@@ -1,18 +1,16 @@
 .myname{
+  margin:50px;
   display: flex;
   flex-direction: column;
-  font-size: 60px;
+  font-size: 40px;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 5px;
 }
 
-
-.aboutmeImg{
-  height: 15%;
-  width: 15%;
-  margin-right: 80%;
-}
-
-.aboutmeHeader{
-  padding: 10px;
-  position: relative;
-  cursor: pointer;
+.aboutme{
+  font-size: 25px;
+  margin: 90px;
+  font-family:'Times New Roman', Times, serif;
+  line-height: 1cm;
 }
